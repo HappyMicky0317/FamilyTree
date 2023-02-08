@@ -1,0 +1,56 @@
+{
+    "name": "Citations",
+    "routePrefix": "citations",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+  "columns": [
+    {
+      "label": "Name",
+      "name": "name",
+      "data": "citations.name",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "data": "citations.description",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Confidence",
+      "name": "confidence",
+      "data": "citations.confidence",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Volume",
+      "name": "volume",
+      "data": "citations.volume",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Page",
+      "name": "page",
+      "data": "citations.page",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Date",
+      "name": "date",
+      "data": "citations.date",
+      "meta": ["searchable", "sortable", "date"]
+    },
+    {
+      "label": "Source",
+      "name": "source",
+      "data": "citations.source",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Active",
+      "name": "is_active",
+      "data": "citations.is_active",
+      "meta": ["boolean"]
+    }
+  ]
+}

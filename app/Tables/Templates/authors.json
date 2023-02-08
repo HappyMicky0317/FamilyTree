@@ -1,0 +1,27 @@
+{
+    "name": "Author",
+    "routePrefix": "authors",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+  "columns": [
+    {
+      "label": "Name",
+      "name": "name",
+      "data": "citations.name",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "data": "citations.description",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Active",
+      "name": "is_active",
+      "data": "citations.is_active",
+      "meta": ["boolean"]
+    }
+  ]
+}
+

@@ -1,0 +1,32 @@
+{
+    "name": "Places",
+    "routePrefix": "places",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+  "columns": [
+    {
+      "label": "Title",
+      "name": "title",
+      "data": "places.title",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "data": "places.description",
+      "meta": ["searchable", "sortable"]
+    },
+    {
+      "label": "Date",
+      "name": "date",
+      "data": "places.date",
+      "meta": ["searchable", "sortable", "date"]
+    },
+    {
+      "label": "Active",
+      "name": "is_active",
+      "data": "places.is_active",
+      "meta": ["boolean"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "routePrefix": "types",
+    "title" : "Create Type",
+    "icon": "location-arrow",
+
+    "sections": [{
+        "columns": 2,
+        "fields": [{
+            "label": "Name",
+            "name": "name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Description",
+            "name": "description",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Active",
+            "name": "is_active",
+            "value": false,
+            "meta": {
+                "type": "input",
+                "content": "checkbox"
+            }
+        }]
+    }]
+}
